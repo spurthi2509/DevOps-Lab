@@ -1,0 +1,8 @@
+﻿PING redis (172.18.0.3): 56 data bytes
+64 bytes from 172.18.0.3: seq=0 ttl=64 time=0.299 ms
+64 bytes from 172.18.0.3: seq=1 ttl=64 time=0.248 ms
+64 bytes from 172.18.0.3: seq=2 ttl=64 time=0.229 ms
+
+--- redis ping statistics ---
+3 packets transmitted, 3 packets received, 0% packet loss
+round-trip min/avg/max = 0.229/0.258/0.299 ms

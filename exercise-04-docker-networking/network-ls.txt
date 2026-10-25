@@ -1,0 +1,6 @@
+﻿NETWORK ID     NAME            DRIVER    SCOPE
+b3ae0c3bc3b8   bridge          bridge    local
+493bf4d44482   host            host      local
+e3d592dff92f   minikube        bridge    local
+c0fe3e472e76   my-bridge-net   bridge    local
+b237b23e5e62   none            null      local
