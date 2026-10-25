@@ -1,0 +1,2 @@
+﻿NAME                         READY   STATUS    RESTARTS   AGE
+flask-app-59f7cdccb4-mhbsw   1/1     Running   0          6m6s
