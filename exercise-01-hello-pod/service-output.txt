@@ -1,0 +1,3 @@
+﻿NAME         TYPE        CLUSTER-IP     EXTERNAL-IP   PORT(S)        AGE
+hello-k8s    NodePort    10.99.74.251   <none>        80:30108/TCP   102s
+kubernetes   ClusterIP   10.96.0.1      <none>        443/TCP        4m2s
