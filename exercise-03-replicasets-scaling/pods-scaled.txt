@@ -1,0 +1,6 @@
+﻿NAME                 READY   STATUS    RESTARTS   AGE
+flashsale-rs-92c8z   1/1     Running   0          97s
+flashsale-rs-9hbmn   1/1     Running   0          97s
+flashsale-rs-jf6mh   1/1     Running   0          36s
+flashsale-rs-jz7cb   1/1     Running   0          36s
+flashsale-rs-qt2rd   1/1     Running   0          97s
