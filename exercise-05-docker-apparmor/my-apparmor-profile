@@ -1,0 +1,27 @@
+#include <tunables/global>
+
+profile my-apparmor-profile flags=(attach_disconnected,mediate_deleted) {
+    #include <abstractions/base>
+
+    # Allow general file access, then deny the sensitive parts below
+    file,
+
+    # Allow Flask app to bind to port 5000
+    network inet stream,
+
+    # Application directory
+    /app/** rwk,
+
+    # Deny access to sensitive system files
+    deny /etc/passwd r,
+    deny /etc/shadow r,
+    deny /var/** w,
+
+    # Deny execution of binaries in /bin and /usr/bin
+    deny /bin/** mx,
+    deny /usr/bin/** mx,
+
+    # Capability restrictions
+    capability net_bind_service,
+    deny capability sys_admin,
+}

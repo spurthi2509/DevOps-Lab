@@ -1,0 +1,2 @@
+﻿Container started: 7716dea63afa
+AppArmor profile applied: ['apparmor=my-apparmor-profile']

@@ -1,0 +1,108 @@
+﻿docker : #0 building with "desktop-linux" instance using 
+docker driver
+At line:1 char:1
++ docker build -t flask-apparmor . 2>&1 | Out-File -Encoding 
+utf8 docke ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (#0 building wit.. 
+   .g docker driver:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 386B 0.0s done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for 
+docker.io/library/python:3.8-slim
+#2 DONE 0.4s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B 0.0s done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 DONE 0.0s
+
+#5 [1/4] FROM docker.io/library/python:3.8-slim@sha256:1d52838a
+f602b4b5a831beb13a0e4d073280665ea7be7f69ce2382f29c5a613f
+#5 resolve docker.io/library/python:3.8-slim@sha256:1d52838af60
+2b4b5a831beb13a0e4d073280665ea7be7f69ce2382f29c5a613f 0.1s done
+#5 DONE 0.1s
+
+#4 [internal] load build context
+#4 transferring context: 1.23kB 0.0s done
+#4 DONE 0.0s
+
+#6 [2/4] WORKDIR /app
+#6 CACHED
+
+#7 [3/4] COPY . /app
+#7 DONE 0.1s
+
+#8 [4/4] RUN pip install flask
+#8 2.113 Collecting flask
+#8 2.226   Downloading flask-3.0.3-py3-none-any.whl (101 kB)
+#8 2.309      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓ
+öüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓ
+öüΓöü 101.7/101.7 kB 1.2 MB/s eta 0:00:00
+#8 2.400 Collecting itsdangerous>=2.1.2
+#8 2.429   Downloading itsdangerous-2.2.0-py3-none-any.whl (16 
+kB)
+#8 2.508 Collecting blinker>=1.6.2
+#8 2.532   Downloading blinker-1.8.2-py3-none-any.whl (9.5 kB)
+#8 2.601 Collecting Jinja2>=3.1.2
+#8 2.631   Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+#8 2.677      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓ
+öüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓ
+öüΓöü 134.9/134.9 kB 3.2 MB/s eta 0:00:00
+#8 2.782 Collecting Werkzeug>=3.0.0
+#8 2.809   Downloading werkzeug-3.0.6-py3-none-any.whl (227 kB)
+#8 2.899      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓ
+öüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓ
+öüΓöü 228.0/228.0 kB 2.6 MB/s eta 0:00:00
+#8 3.029 Collecting importlib-metadata>=3.6.0
+#8 3.055   Downloading 
+importlib_metadata-8.5.0-py3-none-any.whl (26 kB)
+#8 3.128 Collecting click>=8.1.3
+#8 3.161   Downloading click-8.1.8-py3-none-any.whl (98 kB)
+#8 3.266      ΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓ
+öüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓöüΓ
+öüΓöüΓöü 98.2/98.2 kB 1.3 MB/s eta 0:00:00
+#8 3.398 Collecting zipp>=3.20
+#8 3.427   Downloading zipp-3.20.2-py3-none-any.whl (9.2 kB)
+#8 3.683 Collecting MarkupSafe>=2.0
+#8 3.711   Downloading MarkupSafe-2.1.5-cp38-cp38-manylinux_2_1
+7_x86_64.manylinux2014_x86_64.whl (26 kB)
+#8 3.828 Installing collected packages: zipp, MarkupSafe, 
+itsdangerous, click, blinker, Werkzeug, Jinja2, 
+importlib-metadata, flask
+#8 4.429 Successfully installed Jinja2-3.1.6 MarkupSafe-2.1.5 
+Werkzeug-3.0.6 blinker-1.8.2 click-8.1.8 flask-3.0.3 
+importlib-metadata-8.5.0 itsdangerous-2.2.0 zipp-3.20.2
+#8 4.429 WARNING: Running pip as the 'root' user can result in 
+broken permissions and conflicting behaviour with the system 
+package manager. It is recommended to use a virtual 
+environment instead: https://pip.pypa.io/warnings/venv
+#8 4.740 
+#8 4.740 [notice] A new release of pip is available: 23.0.1 -> 
+25.0.1
+#8 4.740 [notice] To update, run: pip install --upgrade pip
+#8 DONE 5.0s
+
+#9 exporting to image
+#9 exporting layers
+#9 exporting layers 0.8s done
+#9 exporting manifest sha256:46123ee7aa3a1f5b5a6a3bbb2316cf1473
+f08f0124e64cea8970eb0fe94abf74 0.0s done
+#9 exporting config sha256:d822e02a6e54405facbee962fa86f105a998
+b82e095fb167918861a9f46c676f 0.0s done
+#9 exporting attestation manifest sha256:c63e59a0e18763b8276d6b
+20b33a6259a404e18501b4b077424c32a5e992c45d 0.0s done
+#9 exporting manifest list sha256:0110f60695a65a1c95e6393f41d30
+5201115498a7d28f4018843345638291855 0.0s done
+#9 naming to docker.io/library/flask-apparmor:latest done
+#9 unpacking to docker.io/library/flask-apparmor:latest
+#9 unpacking to docker.io/library/flask-apparmor:latest 0.6s 
+done
+#9 DONE 1.6s
