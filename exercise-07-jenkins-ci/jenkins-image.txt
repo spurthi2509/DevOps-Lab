@@ -1,0 +1,2 @@
+﻿IMAGE                 ID             DISK USAGE   CONTENT SIZE   EXTRA
+jenkins/jenkins:lts   a660310e39ad        720MB          246MB   U    
