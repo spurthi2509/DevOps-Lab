@@ -1,6 +1,6 @@
 # Q3: Food Delivery Platform with Docker Networking
 
-Flask order service + MySQL + Redis on a custom Docker bridge network (food-delivery-net). See WRITEUP.md for the approach, tools and flowchart prepared before execution.
+Flask order service + MySQL + Redis on a custom Docker bridge network (food-delivery-net). The approach, tools and flowchart were prepared in the record before execution.
 
 ## Layout
 - app/: Flask app (app.py), Dockerfile, requirements.txt
