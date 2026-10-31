@@ -1,7 +1,6 @@
 # Q3: Food Delivery Platform with Docker Networking
 
-I built a small food delivery order service made of three containers: a **Flask** API, a **MySQL** database and a **Redis** cache. They run on a custom Docker bridge network called `food-delivery-net` and talk to each other by container name. Only the Flask port is published to my laptop. The approach, tools and flowchart were written in my record before I ran anything.
-
+A small food delivery order service made of three containers: a **Flask** API, a **MySQL** database and a **Redis** cache. They run on a custom Docker bridge network called `food-delivery-net` and talk to each other by container name. Only the Flask port is published to my laptop. 
 **Setup:** Windows laptop, Docker Desktop (WSL2), PowerShell for Docker commands, Git Bash for files and Git.
 
 ## What's in this folder
@@ -49,7 +48,7 @@ That means the profile in `apparmor/` was **not tested**. On a Linux host with A
 
 ## The deliberate failure
 
-I started a second Flask container, `flask-broken`, on the default bridge network instead of `food-delivery-net`.
+Started a second Flask container, `flask-broken`, on the default bridge network instead of `food-delivery-net`.
 
 1. **Symptom:** the home page worked, but `/health/db` returned `Name or service not known` for the host `mysql` (`17`, `18`).
 2. **Logs:** repeated failed attempts to resolve `mysql` (`19`).
