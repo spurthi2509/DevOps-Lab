@@ -1,0 +1,1 @@
+﻿{"service":"food-delivery-order-service","status":"running"}

@@ -1,0 +1,17 @@
+#include <tunables/global>
+
+profile food-delivery-profile flags=(attach_disconnected,mediate_deleted) {
+    # allow everything not explicitly denied below
+    file,
+    network inet stream,
+
+    # Deny access to sensitive system files and binaries
+    deny /etc/passwd r,
+    deny /etc/shadow r,
+    deny /bin/** wx,
+    deny /usr/bin/** wx,
+
+    # Capability restrictions
+    capability net_bind_service,
+    deny capability sys_admin,
+}

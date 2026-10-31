@@ -1,0 +1,6 @@
+﻿
+ComputerName RemotePort TcpTestSucceeded
+------------ ---------- ----------------
+localhost          3306            False
+
+

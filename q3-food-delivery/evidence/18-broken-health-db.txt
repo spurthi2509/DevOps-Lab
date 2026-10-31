@@ -1,0 +1,1 @@
+﻿{"detail":"(2003, \"Can't connect to MySQL server on 'mysql' ([Errno -2] Name or service not known)\")","host":"mysql","mysql":"error"}

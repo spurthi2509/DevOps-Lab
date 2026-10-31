@@ -1,0 +1,73 @@
+﻿[
+    {
+        "Name": "food-delivery-net",
+        "Id": "c767f42d3656ea046f93afbf25df0a7079c88aab1cb30afe75918a667cdfbdf5",
+        "Created": "2026-10-31T04:16:45.445748451Z",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv4": true,
+        "EnableIPv6": false,
+        "IPAM": {
+            "Driver": "default",
+            "Options": {},
+            "Config": [
+                {
+                    "Subnet": "172.18.0.0/16",
+                    "Gateway": "172.18.0.1"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Options": {
+            "com.docker.network.enable_ipv4": "true",
+            "com.docker.network.enable_ipv6": "false"
+        },
+        "Labels": {},
+        "Containers": {
+            "50d9236177c515cdd46f866c447cffe460555fd1c8dd43b19ef695cba7da48fe": {
+                "Name": "mysql",
+                "EndpointID": "ea26a0462b538d4c9476604cecacb8855ea8faccbe9c40f36d75a20608859220",
+                "MacAddress": "82:e4:d2:c1:30:14",
+                "IPv4Address": "172.18.0.2/16",
+                "IPv6Address": ""
+            },
+            "6d2a8a19880cd440f619d97c4f64b00bda42a690d7634e8705c8e8736f048d0d": {
+                "Name": "flask-broken",
+                "EndpointID": "6394baa5c47b5a1decc778497ebbb495dfa152b4f2134afe54012f52066b458a",
+                "MacAddress": "62:28:69:e3:d4:21",
+                "IPv4Address": "172.18.0.5/16",
+                "IPv6Address": ""
+            },
+            "d641b2a18ca06dd5aba75f1d950eb001656319686fe7556f9cd069322d2bc1aa": {
+                "Name": "redis",
+                "EndpointID": "27541f9f4526cd9443e69e0204d731c0f958b9e3f41c35f64f6f3203e8d20ab7",
+                "MacAddress": "5e:dd:d5:ae:d4:58",
+                "IPv4Address": "172.18.0.3/16",
+                "IPv6Address": ""
+            },
+            "ea77a4ff2409cfb089518b3d4fd3581e14278e80613892067e66f393e2999dc5": {
+                "Name": "flask",
+                "EndpointID": "f88759876803154cfb18ae518ca2899b70ba775220c6b6b3b344f866bc7049ea",
+                "MacAddress": "26:72:1e:99:67:63",
+                "IPv4Address": "172.18.0.4/16",
+                "IPv6Address": ""
+            }
+        },
+        "Status": {
+            "IPAM": {
+                "Subnets": {
+                    "172.18.0.0/16": {
+                        "IPsInUse": 7,
+                        "DynamicIPsAvailable": 65529
+                    }
+                }
+            }
+        }
+    }
+]

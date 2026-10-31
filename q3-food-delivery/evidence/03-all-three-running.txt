@@ -1,0 +1,4 @@
+﻿CONTAINER ID   IMAGE        COMMAND                  CREATED              STATUS              PORTS                                         NAMES
+ea77a4ff2409   food-flask   "python app.py"          About a minute ago   Up About a minute   0.0.0.0:5000->5000/tcp, [::]:5000->5000/tcp   flask
+d641b2a18ca0   redis:7      "docker-entrypoint.sΓÇª"   4 minutes ago        Up 4 minutes        6379/tcp                                      redis
+50d9236177c5   mysql:8      "docker-entrypoint.sΓÇª"   5 minutes ago        Up 5 minutes        3306/tcp, 33060/tcp                           mysql

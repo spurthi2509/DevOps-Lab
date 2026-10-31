@@ -1,0 +1,6 @@
+﻿
+ComputerName RemotePort TcpTestSucceeded
+------------ ---------- ----------------
+localhost          5000             True
+
+

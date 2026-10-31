@@ -1,0 +1,3 @@
+﻿CONTAINER ID   IMAGE     COMMAND                  CREATED              STATUS              PORTS                 NAMES
+d641b2a18ca0   redis:7   "docker-entrypoint.sΓÇª"   About a minute ago   Up About a minute   6379/tcp              redis
+50d9236177c5   mysql:8   "docker-entrypoint.sΓÇª"   2 minutes ago        Up 2 minutes        3306/tcp, 33060/tcp   mysql

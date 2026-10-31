@@ -1,0 +1,1 @@
+﻿{"order":{"customer":"Asha","id":1,"item":"Biryani","status":"Delivered"},"source":"redis-cache"}

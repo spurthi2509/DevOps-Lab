@@ -1,0 +1,4 @@
+﻿Waiting for MySQL at 'mysql' (try 9/30): (2003, "Can't connect to MySQL server on 'mysql' ([Errno -2] Name or service not known)")
+Waiting for MySQL at 'mysql' (try 10/30): (2003, "Can't connect to MySQL server on 'mysql' ([Errno -2] Name or service not known)")
+Waiting for MySQL at 'mysql' (try 11/30): (2003, "Can't connect to MySQL server on 'mysql' ([Errno -2] Name or service not known)")
+Waiting for MySQL at 'mysql' (try 12/30): (2003, "Can't connect to MySQL server on 'mysql' ([Errno -2] Name or service not known)")

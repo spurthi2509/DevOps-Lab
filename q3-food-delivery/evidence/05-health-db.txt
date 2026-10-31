@@ -1,0 +1,1 @@
+﻿{"host":"mysql","mysql":"connected","result":{"ok":1}}
